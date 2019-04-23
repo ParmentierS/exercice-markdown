@@ -10,7 +10,7 @@
 
 ## Qu’est-ce que c’est ?
 
-Notre petit projet de groupe pour apprendre et synthétisé le markdown.
+Notre petit projet de groupe pour apprendre et synthétiser le markdown.
 
 
 ## Langage utilisé ?
@@ -18,7 +18,7 @@ Notre petit projet de groupe pour apprendre et synthétisé le markdown.
 - **Markdown**
 
 ## Que contient ce projet ?
-### **Une synthese recapitulative en 2 partie**
+### **Une synthese recapitulative en 2 parties**
 ![img synthese markdown](images/Synthese.png)
 
 
