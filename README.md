@@ -22,8 +22,8 @@ Notre petit projet de groupe pour apprendre et synthétiser le markdown.
 ![img synthese markdown](images/Synthese.png)
 
 
-[Partie 1](fichier1.md)  
-[Partie 2](fichier2.md)
+[Partie 1](Fichier1.md)  
+[Partie 2](Fichier2.md)
 ### **Un menu permettant de naviguer**
 
 
