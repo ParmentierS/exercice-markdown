@@ -66,10 +66,11 @@ To create code blocks, indent every line of the block by at least four spaces or
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 
 The rendered output of all three looks identical:
+
+`***`
 ***
-
+`---`
 ---
-
 _________________
 As you can see it's identical.
 
