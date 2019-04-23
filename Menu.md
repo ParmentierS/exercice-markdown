@@ -1,7 +1,5 @@
 **Menu du répertoire**
 
-- [Fichier 1](git/exercice-git-configuration.md)
-- [Fichier 2](git/exercice-git-cadavre-exquis.md)
-- [Fichier 3](git/exercice-git-training.md)
-
-
+- [Fichier 1](Fichier1.md)
+- [Fichier 2](Fichier2.md)
+- [README](README.md)
