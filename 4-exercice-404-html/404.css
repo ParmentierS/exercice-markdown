@@ -1,0 +1,131 @@
+body{
+    box-align: center;
+    background-color: #009032;
+    /*background-image: url("lost-woods-912x456.jpg);*/
+    /*background-image: linear-gradient(#009032, #363F20);*/
+    background-image: radial-gradient(#009032, #363F20);
+    text-shadow:5px 5px 3px #009133;
+    
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-align: center;
+}
+h1{
+    box-align: center;
+    text-align: center;
+    color:#978072;
+    text-shadow:10px 10px 5px #009133;
+    font-size: 50px;
+}
+ul{
+    margin: 0;
+    box-align: center;
+    text-align: center;
+    font-size: 25px;
+    list-style-image: url('rsz_navi.png');
+}
+ul.woods:hover{
+    background-image: url("skull-kid.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ul.farore:hover{
+    background-image: url("farore-wind.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+a:link{
+    color:#978072;
+    text-decoration: none;
+}
+a:visited{
+    color:#978072;
+}
+a.reload:link{
+    
+    
+}
+a.wind:link{
+    
+    
+}
+a.explore:link{
+    
+    
+}
+a.goback:link{
+    
+    
+}
+a.quit:link{
+    
+}
+a.reload:visited{
+    background-color:red;
+    text-decoration: overline;
+}
+a.wind:visited{
+    background-color:red;
+    text-decoration: overline;
+}
+a.explore:visited{
+    background-color:red;
+    text-decoration: overline;
+}
+a.goback:visited{
+    background-color:red;
+    text-decoration: overline;
+}
+a.quit:visited{
+    background-color:green;
+}
+
+a.reload:hover{
+    background-color:goldenrod;
+    text-decoration: overline;
+}
+a.wind:hover{
+    background-color:goldenrod;
+    text-decoration: overline;
+}
+a.explore:hover{
+    background-color:goldenrod;
+    text-decoration: overline;
+}
+a.goback:hover{
+    background-color:goldenrod;
+    text-decoration: overline;
+}
+a.quit:hover{
+    background-color:goldenrod;
+}
+a.reload:active{
+    font-size: 100px;
+    background-image: url("farore-wind.jpg");
+    background-size: contain;
+}
+a.wind:active{
+    font-size: 100px;
+    background-image: url("farore-wind.jpg");
+    background-size: contain;
+}
+a.explore:active{
+    font-size: 100px;
+    background-image: url("skull-kid.jpeg");
+    background-size: contain;;
+}
+a.goback:active{
+    font-size: 100px;
+    background-image: url("skull-kid.jpeg");
+    background-size: contain;
+}
+a.quit:active{
+    font-size: 100px;
+    background-image: url("saria-song.png");
+    background-size: contain;
+}
