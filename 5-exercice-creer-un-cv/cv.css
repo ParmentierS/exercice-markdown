@@ -1,14 +1,167 @@
 body{
     background-color: black;
     color: #3ADF00;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 h1{
     font-size: 400%;
     text-align: right;
+
+}
+h2{
+    font-size: 300%;
+    text-align:center;
+    text-decoration: underline;
 }
 img{
     float: left;
 }
+header{
+    margin: 1%
+}
 section{
+    margin: 1%;
     clear: both;
+}
+section#contact{
+    border-style: solid;
+    border-top-color: #3ADF00;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color:black;
+
+}
+section.contact-inline{
+
+}
+section.contact-inline h5{
+    font-style: italic;
+    font-size: 150%;
+    display: inline;
+    float: left;
+    padding-bottom:0;
+    padding-top: 0;
+}
+section.contact-inline p{
+    font-size: 150%;
+    display: inline;
+    float: right;
+    padding-bottom:0;
+    padding-top: 0;
+}
+   
+}
+section#formations{
+    border-style: solid;
+    border-top-color: #3ADF00;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color:black;
+
+}
+section.formation-block h3{
+    font-size: 200%;
+    display: inline;
+    float: left;
+    font-weight: bold;
+
+}
+section.formation-block p.annee{
+    font-size: 200%;
+    display: inline;
+    float: right;
+    font-weight: bold;
+
+}
+section.formation-block p.lieu{
+    font-style: italic;
+    font-size: 150%;
+    clear:both;
+
+}
+section.detail-inline h5{
+    display: inline;
+    text-decoration: underline;
+    font-size: 150%;
+}
+section.detail-inline p{
+    display: inline;
+    font-size: 150%;
+}
+section#experience{
+    border-style: solid;
+    border-top-color: #3ADF00;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color:black;
+
+}
+section.experience-block h3{
+    font-size: 200%;
+    display: inline;
+    float: left;
+    font-weight: bold;
+
+}
+section.experience-block p.annee{
+    font-size: 200%;
+    display: inline;
+    float: right;
+    font-weight: bold;
+
+}
+section.experience-block p.lieu{
+    font-style: italic;
+    font-size: 150%;
+    clear:both;
+
+}
+section#langue{
+    border-style: solid;
+    border-top-color: #3ADF00;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color:black;
+
+}
+section#competences{
+    border-style: solid;
+    border-top-color: #3ADF00;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color:black;
+
+}
+
+section.langue-inline{
+    align:left;
+    padding 0;
+    margin:0;
+    width:40%
+}
+section.langue-inline h5{
+    display: inline;
+    text-decoration: underline;
+    font-size: 150%;
+    float: left;
+}
+section.langue-inline p{
+    display: inline;
+    font-size: 150%;
+    float: right;
+}
+section.competence-inline h5{
+    display: inline;
+    text-decoration: underline;
+    font-size: 150%;
+    padding-right: 5%;
+  
+
+}
+section.competence-inline p{
+
+    display: inline;
+    font-size: 150%;
+    
 }
