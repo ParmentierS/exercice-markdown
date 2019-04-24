@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: #3ADF00;
+}
+h1{
+    font-size: 400%;
+    text-align: right;
+}
+img{
+    float: left;
+}
+section{
+    clear: both;
+}
