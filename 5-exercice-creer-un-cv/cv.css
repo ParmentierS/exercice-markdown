@@ -4,6 +4,9 @@ body{
     margin-right: 2%;
     margin-left: 2%;
 }
+hr{
+    color: #3ADF00;
+}
 h1{
     font-size: 400%;
     text-align: right;
@@ -13,12 +16,13 @@ h2{
     font-size: 300%;
     text-align:center;
     text-decoration: underline;
+    margin-top: 1%;
+    padding-top: 0;
 }
 img{
     float: left;
 }
 header{
-    margin: 1%
 }
 section{
     margin: 1%;
@@ -30,11 +34,10 @@ section#contact{
     border-bottom-color:black;
     border-left-color:black;
     border-right-color:black;
+    margin: 2%;
 
 }
-section.contact-inline{
 
-}
 section.contact-inline h5{
     font-style: italic;
     font-size: 150%;
@@ -42,6 +45,8 @@ section.contact-inline h5{
     float: left;
     padding-bottom:0;
     padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 section.contact-inline p{
     font-size: 150%;
@@ -49,6 +54,8 @@ section.contact-inline p{
     float: right;
     padding-bottom:0;
     padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
    
 }
@@ -65,13 +72,16 @@ section.formation-block h3{
     display: inline;
     float: left;
     font-weight: bold;
-
+    margin-bottom: 0;
+    padding-bottom:0;
 }
 section.formation-block p.annee{
     font-size: 200%;
     display: inline;
     float: right;
     font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom:0;
 
 }
 section.formation-block p.lieu{
@@ -102,6 +112,8 @@ section.experience-block h3{
     display: inline;
     float: left;
     font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom:0;
 
 }
 section.experience-block p.annee{
@@ -109,6 +121,8 @@ section.experience-block p.annee{
     display: inline;
     float: right;
     font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom:0;
 
 }
 section.experience-block p.lieu{
@@ -123,6 +137,7 @@ section#langue{
     border-bottom-color:black;
     border-left-color:black;
     border-right-color:black;
+    padding-bottom: 2%;
 
 }
 section#competences{
@@ -138,18 +153,26 @@ section.langue-inline{
     align:left;
     padding 0;
     margin:0;
-    width:40%
+    width:40%;
 }
 section.langue-inline h5{
     display: inline;
     text-decoration: underline;
     font-size: 150%;
     float: left;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 2%;
+    margin-top: 0;
 }
 section.langue-inline p{
     display: inline;
     font-size: 150%;
     float: right;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 2%;
+    margin-top: 0;
 }
 section.competence-inline h5{
     display: inline;
