@@ -1,0 +1,189 @@
+body{
+    background-image:radial-gradient(blue, cyan);
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content: center;
+    text-align:center;
+    /* Supports Grid */
+
+    /*
+    display: grid;
+    grid-template-rows: minmax(0, 500px) auto minmax(0, 500px);
+    grid-template-columns: 1fr 176px minmax(0, 500px) 1fr;
+    grid-gap: 1%;
+    /**/
+}
+h1{
+    text-align: center;
+}
+nav.menu a:link{
+    text-decoration: none;
+    color:blue;
+    background-color: yellow;
+    border-radius: 20px;
+    padding:5px;
+    font-weight: bold;
+}
+nav.menu a:visited{
+    text-decoration: none;
+    color:blue;
+    background-color: yellow;
+    border-radius: 20px;
+    padding:5px;
+    font-weight: bold;
+}
+div.center{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-content: center;
+    background-image: radial-gradient(lightgreen,cyan);
+    border-radius: 7%;
+
+}
+section.photo{
+    order:-3;
+    
+    border-style: groove;
+    border-color:rgba(0, 0, 0, 0);
+    border-bottom-color:yellow;
+}
+header{
+    order:-2;
+    
+    border-style: groove;
+    border-color:rgba(0, 0, 0, 0);
+    border-top-color:yellow;
+    border-bottom-color:yellow;
+}
+nav.menu{
+    order:-1;
+    
+    border-style: groove;
+    border-color:rgba(0, 0, 0, 0);
+    border-top-color:yellow;
+    border-bottom-color:yellow;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:space-evenly;
+    align-content: center;
+    align-items: center;
+}
+section.presentation{
+    
+    border-style: groove;
+    border-color:rgba(0, 0, 0, 0);
+    border-top-color:yellow;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:space-evenly;
+    align-content: center;
+    align-items: center;
+}
+section.photo img{
+    border-width: 5%;
+    border-radius: 50%;
+    border-color:rgba(0, 0, 0, 0);
+
+}
+
+
+section.hobbies{
+
+}
+section.competences{
+    
+}
+section.inline-info{
+
+    
+}
+section.inline-info h5{
+    font-size: 17px;
+}
+section.hobbies h5{
+    font-size: 17px;
+}
+section.inline-info p{
+    font-size: 15px;
+    line-height: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 3px black;
+    box-shadow: -1px -1px 1px 1px black;
+}
+section.hobbies p{
+    font-size: 15px;
+    line-height: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 3px black;
+    box-shadow: -1px -1px 1px 1px black;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    /* For desktop and i-pad*/
+    body{
+        /*display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        align-content: center;*/
+        /* Supports Grid */
+    
+        text-align:left;
+        display: grid;
+        grid-template-rows: 250px auto 250px;
+        grid-template-columns: 1fr 500px 1fr;
+        grid-gap: 1%;
+        /**/
+    }
+    div.center{
+        display: grid;
+        grid-template-columns: 200px 300px;
+        grid-template-rows: auto auto;
+        grid-gap:0;
+    
+    }
+    section.photo{
+        border-color:rgba(0, 0, 0, 0);
+        border-right-color: yellow;
+        border-bottom-color: yellow;
+    }
+    header{
+        border-color:rgba(0, 0, 0, 0);
+        border-left-color: yellow;
+        border-bottom-color: yellow;
+    }
+    nav.menu{
+        border-color:rgba(0, 0, 0, 0);
+        border-right-color: yellow;
+        border-top-color: yellow;
+    }
+    section.presentation{
+        border-color:rgba(0, 0, 0, 0);
+        border-left-color: yellow;
+        border-top-color: yellow;
+        padding: 5px;
+    }
+
+    section.inline-info h5{
+        display: inline;
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    section.inline-info p{
+        display: inline;
+        font-size: 15px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 3px black;
+        box-shadow: -1px -1px 1px 1px black;
+    }
+    section.hobbies p{
+        font-size: 15px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 3px black;
+        box-shadow: -1px -1px 1px 1px black;
+        padding:0;
+    }
+    
+}
