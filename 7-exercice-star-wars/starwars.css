@@ -1,0 +1,87 @@
+body{
+    background-color:black;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content: center;
+    text-align:center;
+    color:yellow;
+    font-size:200%;
+
+    /* Stopports Grid */
+
+    /*
+    display: grid;
+    grid-template-rows: minmax(0, 500px) auto minmax(0, 500px);
+    grid-template-columns: 1fr 176px minmax(0, 500px) 1fr;
+    grid-gap: 1%;
+    /**/
+}
+h1{
+    text-align: center;
+    color:yellow;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+
+section.center{
+    position: relative;
+    top:100%;
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    -moz-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    -ms-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    -o-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    animation: defiler 60s linear ;
+
+}
+@keyframes defiler 
+{
+    0% { top: 20%; }
+    100%{  top: -200%; }
+}
+
+
+
+@media only screen and (min-width: 768px) 
+{
+    /* For desktop and i-pad*/
+    body{
+        /*display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        align-content: center;*/
+        /* Supports Grid */
+    
+        text-align:center;
+        display: grid;
+        grid-template-rows: 250px 500px 250px;
+        grid-template-columns: 1fr 768px 1fr;
+        grid-gap: 1%;
+        font-size:50px;
+        /**/
+    }
+    h1{
+        text-align: center;
+        color:yellow;
+        font-weight: bolder;
+        font-size: 75px;
+    }
+    @keyframes defiler 
+    {
+        0% { top: 100%; }
+        100%{  top: -200%; }
+    }
+    section.center{
+    top: 100%;
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    -moz-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    -ms-transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    -o-transform:  perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    transform: perspective(400px) rotate3d(1, 0, 0, 60deg) translateX(0px) ;
+    animation: defiler 60s linear ;
+    }
+
+    
+}
