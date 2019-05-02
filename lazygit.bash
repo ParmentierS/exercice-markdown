@@ -1,5 +1,5 @@
 #!/bin/sh
-NOW=date $("%d-%m-%Y %T")
+NOW=$(date +"%d-%m-%Y %T")
 git add --all
 git commit -m "changements $NOW [auto commmit]"
 git pull origin	developpement
