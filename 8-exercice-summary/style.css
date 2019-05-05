@@ -5,10 +5,10 @@ body{
     text-align: center;
     
 }
-section{
+section
+{
     background-color: white;
     margin: auto;
-    width: 45%;
     box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
 
 }
@@ -16,7 +16,6 @@ section{
 article.movie{
     background-color: white;
     margin: auto;
-    width: 45%;
     box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
 }
 article.movie h2{
@@ -30,13 +29,12 @@ article.movie p{
 header{
     background-color: white;
     margin: auto;
-    width: 45%;
     box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
 }
 header img{
     border-radius: 50%;
-    width: 15%;
-    height: 15%;
+    width: 50%;
+    height: 50%;
     border-style: solid;
     border-color: #EBEBEB;
     border-width: 5%;
@@ -52,7 +50,6 @@ header p{
 nav{
     background-color: white;
     margin: auto;
-    width: 45%;
     margin-top:5%;
     margin-bottom:5%;
     padding-top:5%;
@@ -66,9 +63,10 @@ h1{
 ul{
     list-style: none;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-inline-start:0;
 
 }
 nav a:link{
@@ -108,8 +106,127 @@ article.movie td{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    
+}
+article.movie p{
+    padding-bottom:0;
 }
 article.movie img{
     object-fit: contain;
     max-width:100px;
+}
+@media only screen and (min-width: 768px) {
+    section
+    {
+        background-color: white;
+        margin: auto;
+        width: 45%;
+        box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
+
+    }
+
+    article.movie{
+        background-color: white;
+        margin: auto;
+        width: 45%;
+        box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
+    }
+    article.movie h2{
+        padding-top:10%;
+    }
+    article.movie p{
+        text-align: justify;
+        padding-left: 5%;
+        padding-right:5%;
+    }
+    header{
+        background-color: white;
+        margin: auto;
+        width: 45%;
+        box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
+    }
+    header img{
+        border-radius: 50%;
+        width: 15%;
+        height: 15%;
+        border-style: solid;
+        border-color: #EBEBEB;
+        border-width: 5%;
+        margin-top:5%;
+        display: inline-block;
+    }
+    header p{
+        text-align: justify;
+        line-height: 1.6;
+        padding-left: 5%;
+        padding-right:5%;
+    }
+    nav{
+        background-color: white;
+        margin: auto;
+        width: 45%;
+        margin-top:5%;
+        margin-bottom:5%;
+        padding-top:5%;
+        padding-bottom:5%;
+        box-shadow: 1px 1px #EBEBEB, -1px -1px #EBEBEB;
+    }
+    h1{
+        color:#DD5555;
+    }
+
+    ul{
+        list-style: none;
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    nav a:link{
+        color:#CCCCCC;
+        text-decoration: none;
+    }
+    nav a:visited{
+        color:#CCCCCC;
+        text-decoration: none;
+    }
+    nav i{
+        font-size:24px;
+    }
+    a.button{
+        background-color:#DD5555;
+        display: inline-block;
+        color:white;
+        margin:3%;
+        margin-top: 0;
+        padding:3%;
+        border-radius: 5%;
+        text-decoration: none;
+        font-weight: 800;
+    }
+    article.movie table{
+        display:flex;
+        flex-direction: column;
+        padding-left:5%;
+        padding-right: 5%;
+    }
+    article.movie tr{
+        display:flex;
+        flex-direction: row;
+        padding-bottom: 10%;
+    }
+    article.movie td{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    article.movie p{
+        padding-bottom:0;
+    }
+    article.movie img{
+        object-fit: contain;
+        max-width:100px;
+    }
 }
