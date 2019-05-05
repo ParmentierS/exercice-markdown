@@ -1,0 +1,91 @@
+body {
+    /* Force the body to fill the entire screen */
+    width: 100%;
+    height: 100%;
+    /* Hide elements that flow outside the viewable space */
+    overflow: hidden;
+    /* Black background for the screen */
+    background: #000;
+  }
+
+
+main.container{   
+    display: flex;
+    justify-content: center;
+    /* This is a magic number based on the context in which this snippet is used and effects the perspective */
+    height: 800px;
+    /* This sets allows us to transform the text on a 3D plane, and is somewhat a magic number */
+    perspective: 400px;
+    /* The rest is totally up to personal styling preferences */
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
+}
+section.text{
+
+    /* Position the element so we can adjust the top property in the animation */
+    position: relative;
+    /* Making sure the text is fully off the screen at the start and end of the animation */
+    top: -100px;
+    /* Defines the skew origin at the very center when we apply transforms on the animation */
+    transform-origin: 50% 100%;
+    animation: defiler 329s linear infinite;
+}
+@keyframes defiler 
+{
+    0% { transform: rotateX(30deg) translateY(400px); }
+    100% { transform: rotateX(30deg) translateY(-6000px); }
+}
+
+
+
+@media only screen and (min-width: 768px) 
+{
+        body {
+        /* Force the body to fill the entire screen */
+        width: 100%;
+        height: 100%;
+        /* Hide elements that flow outside the viewable space */
+        overflow: hidden;
+        /* Black background for the screen */
+        background: #000;
+    }
+
+
+    main.container{   
+        display: flex;
+        justify-content: center;
+        /* This is a magic number based on the context in which this snippet is used and effects the perspective */
+        height: 800px;
+        /* This sets allows us to transform the text on a 3D plane, and is somewhat a magic number */
+        perspective: 400px;
+        /* The rest is totally up to personal styling preferences */
+        color: #feda4a;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 500%;
+        font-weight: 600;
+        letter-spacing: 6px;
+        line-height: 150%;
+        text-align: justify;
+    }
+    section.text{
+
+        /* Position the element so we can adjust the top property in the animation */
+        position: relative;
+        /* Making sure the text is fully off the screen at the start and end of the animation */
+        top: -100px;
+        /* Defines the skew origin at the very center when we apply transforms on the animation */
+        transform-origin: 50% 100%;
+        animation: defiler 329s linear infinite;
+    }
+    @keyframes defiler 
+    {
+        0% { transform: rotateX(30deg) translateY(400px); }
+        100% { transform: rotateX(30deg) translateY(-6000px); }
+    }
+}
+    
