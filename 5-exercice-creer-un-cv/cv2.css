@@ -22,12 +22,61 @@ h2{
     margin-top: 1%;
     padding-top: 0;
 }
-header{
+header.tete-de-page{
     display:flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
+section#formations header{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+}
+section.experience-block{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+}
+section#formations header h3{
+    grid-row: 1;
+    grid-column:1;
+    justify-self: start;
+}
+section#formations header p.annee{
+    grid-row: 1;
+    grid-column:3;
+    justify-self: end;
+}
+section#formations header p.lieu{
+    grid-row: 2;
+    grid-column:1;
+}
+section.experience-block h3{
+    grid-row: 1;
+    grid-column:1;
+    justify-self: start;
+}
+section.experience-block p.annee{
+    grid-row: 1;
+    grid-column:3;
+    justify-self: end;
+}
+section.experience-block p.lieu{
+    grid-row: 2;
+    grid-column:1;
+}
+section.langue-inline{
+    display:grid;
+    grid-template-columns: auto 5px auto 500px;
+}
+section.langue-inline p{
+    grid-row: 1;
+    grid-column:3;
+    justify-self: end;
+}
+section.langue-inline h5{
+    grid-row: 1;
+    grid-column:1;
+    
+}
 section{
     margin: 1%;
     clear: both;
@@ -155,10 +204,6 @@ section#competences{
 }
 
 section.langue-inline{
-    align:left;
-    padding 0;
-    margin:0;
-    width:40%;
 }
 section.langue-inline h5{
     display: inline;
